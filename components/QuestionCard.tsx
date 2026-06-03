@@ -27,6 +27,11 @@ export default function QuestionCard({ question, onSubmit }: QuestionCardProps) 
     }
   };
 
+  const handleOptionSelect = (optionId: string) => {
+    setSelected(optionId);
+    onSubmit(optionId);
+  };
+
   return (
     <div className="flex flex-col min-h-[calc(100dvh-80px)] animate-fade-in">
       {/* Question prompt */}
@@ -54,25 +59,27 @@ export default function QuestionCard({ question, onSubmit }: QuestionCardProps) 
           <AnswerOptions
             options={question.options || []}
             selected={selected}
-            onSelect={setSelected}
+            onSelect={handleOptionSelect}
           />
         )}
       </div>
 
-      {/* Submit button — sticky bottom */}
-      <div className="sticky bottom-0 pb-6 pt-4 bg-gradient-to-t from-bg-primary via-bg-primary to-transparent">
-        <button
-          onClick={handleSubmit}
-          disabled={!canSubmit}
-          className={`w-full py-4 px-6 font-semibold text-base rounded-2xl transition-all duration-150 ${
-            canSubmit
-              ? "bg-accent hover:bg-accent-hover active:scale-[0.98] text-white shadow-lg shadow-accent/20"
-              : "bg-bg-tertiary text-text-muted cursor-not-allowed"
-          }`}
-        >
-          Check Answer
-        </button>
-      </div>
+      {/* Submit button — only for type_answer questions */}
+      {isTyped && (
+        <div className="sticky bottom-0 pb-6 pt-4 bg-gradient-to-t from-bg-primary via-bg-primary to-transparent">
+          <button
+            onClick={handleSubmit}
+            disabled={!canSubmit}
+            className={`w-full py-4 px-6 font-semibold text-base rounded-2xl transition-all duration-150 ${
+              canSubmit
+                ? "bg-accent hover:bg-accent-hover active:scale-[0.98] text-white shadow-lg shadow-accent/20"
+                : "bg-bg-tertiary text-text-muted cursor-not-allowed"
+            }`}
+          >
+            Check Answer
+          </button>
+        </div>
+      )}
     </div>
   );
 }
