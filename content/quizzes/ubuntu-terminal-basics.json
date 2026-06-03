@@ -1,0 +1,435 @@
+{
+  "id": "ubuntu-terminal-basics",
+  "title": "Ubuntu Terminal Basics",
+  "description": "Master essential Ubuntu terminal commands for file management, system operations, and text processing.",
+  "categories": [
+    "Files & Directories",
+    "Text Processing",
+    "System Info",
+    "Permissions"
+  ],
+  "questions": [
+    {
+      "id": "ls-l-001",
+      "type": "detail_meaning",
+      "category": "Files & Directories",
+      "difficulty": "beginner",
+      "prompt": "What does the -l flag do in the ls command?",
+      "options": [
+        {
+          "id": "a",
+          "label": "List files in long format",
+          "isCorrect": true,
+          "explanation": "The -l flag displays detailed information including permissions, owner, size, and modification date for each file."
+        },
+        {
+          "id": "b",
+          "label": "List only large files",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "List files in lowercase",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "List files with line numbers",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "ls -l /home/user",
+      "explanation": "The ls -l command shows files in long format with detailed information.",
+      "tags": ["ls", "listing", "files"]
+    },
+    {
+      "id": "grep-r-002",
+      "type": "detail_meaning",
+      "category": "Text Processing",
+      "difficulty": "intermediate",
+      "prompt": "What does the -r flag do in grep?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Search recursively through directories",
+          "isCorrect": true,
+          "explanation": "The -r flag makes grep search inside directories recursively, descending into subdirectories to find matches."
+        },
+        {
+          "id": "b",
+          "label": "Remove matching lines",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Reverse the search pattern",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Replace matching text",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "grep -r \"error\" /var/log",
+      "explanation": "grep searches for matching text. With -r, it searches recursively through directories.",
+      "tags": ["grep", "search", "recursive"]
+    },
+    {
+      "id": "mkdir-p-003",
+      "type": "what_does_it_do",
+      "category": "Files & Directories",
+      "difficulty": "beginner",
+      "prompt": "What does mkdir -p do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Creates parent directories as needed",
+          "isCorrect": true,
+          "explanation": "The -p flag creates all necessary parent directories in the path, preventing errors if they don't exist."
+        },
+        {
+          "id": "b",
+          "label": "Creates a private directory",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Creates a permanent directory",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Creates a protected directory",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "mkdir -p /home/user/projects/new/subfolder",
+      "explanation": "mkdir -p creates nested directories in one command without errors.",
+      "tags": ["mkdir", "directories", "create"]
+    },
+    {
+      "id": "chmod-755-004",
+      "type": "pick_correct",
+      "category": "Permissions",
+      "difficulty": "intermediate",
+      "prompt": "What permissions does chmod 755 give to a file?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Owner: rwx, Group: rx, Others: rx",
+          "isCorrect": true,
+          "explanation": "755 means: owner gets read/write/execute (7), group gets read/execute (5), others get read/execute (5)."
+        },
+        {
+          "id": "b",
+          "label": "Owner: rw, Group: rw, Others: rw",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Owner: rwx, Group: rwx, Others: rwx",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Owner: rx, Group: rx, Others: rx",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "chmod 755 script.sh",
+      "explanation": "chmod 755 is commonly used for executable scripts and directories.",
+      "tags": ["chmod", "permissions", "755"]
+    },
+    {
+      "id": "df-h-005",
+      "type": "what_does_it_do",
+      "category": "System Info",
+      "difficulty": "beginner",
+      "prompt": "What does df -h display?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Disk space usage in human-readable format",
+          "isCorrect": true,
+          "explanation": "The -h flag shows disk space in GB/MB instead of bytes, making it easier to read."
+        },
+        {
+          "id": "b",
+          "label": "Hidden files only",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Hardware information",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Home directory size",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "df -h",
+      "explanation": "df -h shows how much disk space is used and available on all mounted filesystems.",
+      "tags": ["df", "disk", "space"]
+    },
+    {
+      "id": "type-pwd-006",
+      "type": "type_answer",
+      "category": "Files & Directories",
+      "difficulty": "beginner",
+      "prompt": "Type the command to display the current working directory.",
+      "answer": "pwd",
+      "acceptedAnswers": [],
+      "example": "pwd",
+      "explanation": "pwd (print working directory) shows the full path of your current location in the filesystem.",
+      "tags": ["pwd", "directory", "path"]
+    },
+    {
+      "id": "type-clear-007",
+      "type": "type_answer",
+      "category": "System Info",
+      "difficulty": "beginner",
+      "prompt": "Type the command to clear the terminal screen.",
+      "answer": "clear",
+      "acceptedAnswers": [],
+      "example": "clear",
+      "explanation": "clear removes all previous output from the terminal screen, giving you a clean workspace.",
+      "tags": ["clear", "terminal", "screen"]
+    },
+    {
+      "id": "cat-file-008",
+      "type": "pick_correct",
+      "category": "Text Processing",
+      "difficulty": "beginner",
+      "prompt": "What does the cat command do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Displays the contents of a file",
+          "isCorrect": true,
+          "explanation": "cat (concatenate) reads files and prints their content to the terminal."
+        },
+        {
+          "id": "b",
+          "label": "Creates a new file",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Deletes a file",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Compresses a file",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "cat /etc/hosts",
+      "explanation": "cat is one of the most basic commands for viewing file contents.",
+      "tags": ["cat", "read", "file"]
+    },
+    {
+      "id": "rm-rf-009",
+      "type": "detail_meaning",
+      "category": "Files & Directories",
+      "difficulty": "advanced",
+      "prompt": "What does rm -rf do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Removes files and directories recursively without prompting",
+          "isCorrect": true,
+          "explanation": "The -r flag removes directories recursively, and -f forces deletion without confirmation. Use with extreme caution!"
+        },
+        {
+          "id": "b",
+          "label": "Renames files recursively",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Restores deleted files",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Repairs filesystem errors",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "rm -rf old_project/",
+      "explanation": "rm -rf is powerful and dangerous - it permanently deletes without asking for confirmation.",
+      "tags": ["rm", "delete", "recursive", "dangerous"]
+    },
+    {
+      "id": "type-top-010",
+      "type": "type_answer",
+      "category": "System Info",
+      "difficulty": "beginner",
+      "prompt": "Type the command to display running processes in real-time.",
+      "answer": "top",
+      "acceptedAnswers": ["htop"],
+      "example": "top",
+      "explanation": "top shows a dynamic, real-time view of running processes, CPU usage, and memory consumption.",
+      "tags": ["top", "processes", "monitor"]
+    },
+    {
+      "id": "pipe-grep-011",
+      "type": "pick_correct",
+      "category": "Text Processing",
+      "difficulty": "intermediate",
+      "prompt": "What does the pipe symbol | do in commands?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Sends output of one command as input to another",
+          "isCorrect": true,
+          "explanation": "The pipe | connects commands, allowing you to chain operations together."
+        },
+        {
+          "id": "b",
+          "label": "Separates multiple commands to run in parallel",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Comments out a command",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Creates an OR condition",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "cat file.txt | grep \"error\"",
+      "explanation": "Pipes are fundamental for combining simple commands into powerful workflows.",
+      "tags": ["pipe", "redirect", "chain"]
+    },
+    {
+      "id": "sudo-012",
+      "type": "what_does_it_do",
+      "category": "System Info",
+      "difficulty": "beginner",
+      "prompt": "What does the sudo command do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Executes a command with superuser privileges",
+          "isCorrect": true,
+          "explanation": "sudo (superuser do) allows authorized users to run commands as root or another user."
+        },
+        {
+          "id": "b",
+          "label": "Shuts down the system",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Suspends a running process",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Shows user information",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "sudo apt update",
+      "explanation": "sudo is essential for administrative tasks that require elevated permissions.",
+      "tags": ["sudo", "root", "permissions"]
+    },
+    {
+      "id": "type-man-013",
+      "type": "type_answer",
+      "category": "System Info",
+      "difficulty": "beginner",
+      "prompt": "Type the command to view the manual page for a command.",
+      "answer": "man",
+      "acceptedAnswers": [],
+      "example": "man ls",
+      "explanation": "man (manual) displays detailed documentation for commands, including all available options and examples.",
+      "tags": ["man", "help", "documentation"]
+    },
+    {
+      "id": "find-name-014",
+      "type": "detail_meaning",
+      "category": "Files & Directories",
+      "difficulty": "intermediate",
+      "prompt": "What does find . -name \"*.txt\" do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Finds all .txt files in current directory and subdirectories",
+          "isCorrect": true,
+          "explanation": "find searches recursively from the current directory (.) for files matching the pattern *.txt."
+        },
+        {
+          "id": "b",
+          "label": "Renames all .txt files",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Deletes all .txt files",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Counts all .txt files",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "find . -name \"*.txt\"",
+      "explanation": "find is powerful for locating files based on various criteria like name, size, or modification date.",
+      "tags": ["find", "search", "files"]
+    },
+    {
+      "id": "chmod-x-015",
+      "type": "what_does_it_do",
+      "category": "Permissions",
+      "difficulty": "intermediate",
+      "prompt": "What does chmod +x script.sh do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Makes the script executable",
+          "isCorrect": true,
+          "explanation": "The +x flag adds execute permission, allowing the script to be run as a program."
+        },
+        {
+          "id": "b",
+          "label": "Deletes the script",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Exports the script",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Compresses the script",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "example": "chmod +x deploy.sh",
+      "explanation": "You must make shell scripts executable before you can run them with ./script.sh.",
+      "tags": ["chmod", "execute", "permissions"]
+    }
+  ]
+}
