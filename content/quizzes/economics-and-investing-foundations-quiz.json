@@ -1,0 +1,3454 @@
+{
+  "id": "economics-and-investing-foundations",
+  "title": "Economics and Investing Foundations",
+  "description": "A practical quiz for early learners who want to understand economics, markets, investing, risk, interest rates, inflation, and asset classes beyond basic budgeting.",
+  "categories": [
+    "Economic Basics",
+    "Inflation and Interest Rates",
+    "Markets and Supply and Demand",
+    "Central Banks and Monetary Policy",
+    "Bonds and Fixed Income",
+    "Stocks and Equity Investing",
+    "Funds, ETFs, and Diversification",
+    "Risk, Return, and Time Horizon",
+    "Valuation and Investment Decisions",
+    "Behavioral Finance and Common Mistakes"
+  ],
+  "questions": [
+    {
+      "id": "economics-investing-what-does-gdp-mainly-measure-in-an-economy-001",
+      "type": "detail_meaning",
+      "category": "Economic Basics",
+      "difficulty": "beginner",
+      "prompt": "What does GDP mainly measure in an economy?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The total market value of final goods and services produced within a country over a period",
+          "isCorrect": true,
+          "explanation": "GDP measures the market value of final goods and services produced within a country during a specific period, so it is a broad measure of economic output."
+        },
+        {
+          "id": "b",
+          "label": "The total amount of money held in bank accounts by households",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The total profit earned by all companies listed on the stock market",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The total taxes collected by the government in one year",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "GDP measures the market value of final goods and services produced within a country during a specific period, so it is a broad measure of economic output.",
+      "tags": [
+        "gdp",
+        "economic-output",
+        "macro"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-opportunity-cost-mean-002",
+      "type": "detail_meaning",
+      "category": "Economic Basics",
+      "difficulty": "beginner",
+      "prompt": "What does opportunity cost mean?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The fee paid to open an investment account",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "label": "The value of the next best alternative you give up when making a choice",
+          "isCorrect": true,
+          "explanation": "Opportunity cost is the value of the next best option you give up when you choose one use of money, time, or resources over another."
+        },
+        {
+          "id": "c",
+          "label": "The total amount of money lost in a bad investment",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The tax charged on investment gains",
+          "isCorrect": false
+        }
+      ],
+      "answer": "b",
+      "explanation": "Opportunity cost is the value of the next best option you give up when you choose one use of money, time, or resources over another.",
+      "tags": [
+        "opportunity-cost",
+        "decision-making",
+        "tradeoffs"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-difference-between-a-nominal-retu-003",
+      "type": "detail_meaning",
+      "category": "Inflation and Interest Rates",
+      "difficulty": "beginner",
+      "prompt": "What is the difference between a nominal return and a real return?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Nominal return is before inflation; real return adjusts for inflation",
+          "isCorrect": true,
+          "explanation": "A nominal return is the return stated in money terms, while a real return adjusts that result for inflation and better reflects purchasing power."
+        },
+        {
+          "id": "b",
+          "label": "Nominal return is guaranteed; real return is always risky",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Nominal return applies only to bonds; real return applies only to stocks",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Nominal return is after taxes; real return is before taxes",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A nominal return is the return stated in money terms, while a real return adjusts that result for inflation and better reflects purchasing power.",
+      "tags": [
+        "nominal-return",
+        "real-return",
+        "inflation"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-an-interest-rate-generally-do-in-th-004",
+      "type": "what_does_it_do",
+      "category": "Inflation and Interest Rates",
+      "difficulty": "beginner",
+      "prompt": "What does an interest rate generally do in the economy?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It sets the exact future price of every stock",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "label": "It acts as a price of borrowing and a reward for lending or saving",
+          "isCorrect": true,
+          "explanation": "An interest rate is often understood as the price of borrowing money and the compensation lenders or savers receive for delaying consumption and taking risk."
+        },
+        {
+          "id": "c",
+          "label": "It guarantees that inflation will disappear",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It decides which companies are allowed to sell shares",
+          "isCorrect": false
+        }
+      ],
+      "answer": "b",
+      "explanation": "An interest rate is often understood as the price of borrowing money and the compensation lenders or savers receive for delaying consumption and taking risk.",
+      "tags": [
+        "interest-rates",
+        "borrowing",
+        "lending"
+      ]
+    },
+    {
+      "id": "economics-investing-if-prices-rise-by-5-while-your-money-grows-by-005",
+      "type": "detail_meaning",
+      "category": "Inflation and Interest Rates",
+      "difficulty": "beginner",
+      "prompt": "If prices rise by 5% while your money grows by 3%, what happened to your purchasing power?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It increased by about 8%",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "label": "It stayed exactly the same",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It decreased by about 2%",
+          "isCorrect": true,
+          "explanation": "Your purchasing power decreased because your money grew more slowly than prices. The approximate real return is 3% minus 5%, or about -2%."
+        },
+        {
+          "id": "d",
+          "label": "It doubled because both numbers are positive",
+          "isCorrect": false
+        }
+      ],
+      "answer": "c",
+      "explanation": "Your purchasing power decreased because your money grew more slowly than prices. The approximate real return is 3% minus 5%, or about -2%.",
+      "tags": [
+        "inflation",
+        "purchasing-power",
+        "real-return"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-a-recession-usually-describe-006",
+      "type": "detail_meaning",
+      "category": "Economic Basics",
+      "difficulty": "beginner",
+      "prompt": "What does a recession usually describe?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A period when an economy's activity contracts significantly",
+          "isCorrect": true,
+          "explanation": "A recession describes a significant decline in economic activity, often visible in output, employment, income, and spending."
+        },
+        {
+          "id": "b",
+          "label": "A period when every company loses money",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "A period when inflation is always zero",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "A period when stock prices must rise quickly",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A recession describes a significant decline in economic activity, often visible in output, employment, income, and spending.",
+      "tags": [
+        "recession",
+        "business-cycle",
+        "macro"
+      ]
+    },
+    {
+      "id": "economics-investing-which-price-index-is-commonly-used-to-track-c-007",
+      "type": "type_answer",
+      "category": "Inflation and Interest Rates",
+      "difficulty": "beginner",
+      "prompt": "Which price index is commonly used to track changes in the cost of a consumer basket?",
+      "answer": "Consumer Price Index",
+      "acceptedAnswers": [
+        "CPI",
+        "consumer price index"
+      ],
+      "explanation": "The Consumer Price Index, or CPI, tracks changes in prices paid by consumers for a basket of goods and services and is commonly used as an inflation measure.",
+      "tags": [
+        "cpi",
+        "inflation",
+        "price-index"
+      ]
+    },
+    {
+      "id": "economics-investing-if-the-supply-of-a-product-increases-while-de-008",
+      "type": "pick_correct",
+      "category": "Markets and Supply and Demand",
+      "difficulty": "beginner",
+      "prompt": "If the supply of a product increases while demand stays similar, what usually happens to its price?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The price usually rises because there are fewer products",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "label": "The price usually falls because sellers compete to sell more available products",
+          "isCorrect": true,
+          "explanation": "When supply increases and demand is roughly unchanged, sellers often need to compete more, which tends to put downward pressure on price."
+        },
+        {
+          "id": "c",
+          "label": "The price must stay fixed by definition",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The price becomes unrelated to supply and demand",
+          "isCorrect": false
+        }
+      ],
+      "answer": "b",
+      "explanation": "When supply increases and demand is roughly unchanged, sellers often need to compete more, which tends to put downward pressure on price.",
+      "tags": [
+        "supply",
+        "demand",
+        "prices"
+      ]
+    },
+    {
+      "id": "economics-investing-if-demand-for-a-limited-product-increases-whi-009",
+      "type": "pick_correct",
+      "category": "Markets and Supply and Demand",
+      "difficulty": "beginner",
+      "prompt": "If demand for a limited product increases while supply stays similar, what is the usual price pressure?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Downward pressure",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "label": "No pressure at all",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Upward pressure",
+          "isCorrect": true,
+          "explanation": "Higher demand for the same limited supply usually creates upward pressure on price because more buyers are competing for the same amount of goods or assets."
+        },
+        {
+          "id": "d",
+          "label": "The product becomes free",
+          "isCorrect": false
+        }
+      ],
+      "answer": "c",
+      "explanation": "Higher demand for the same limited supply usually creates upward pressure on price because more buyers are competing for the same amount of goods or assets.",
+      "tags": [
+        "demand",
+        "supply",
+        "price-pressure"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-one-main-role-of-a-central-bank-010",
+      "type": "what_does_it_do",
+      "category": "Central Banks and Monetary Policy",
+      "difficulty": "beginner",
+      "prompt": "What is one main role of a central bank?",
+      "options": [
+        {
+          "id": "a",
+          "label": "To directly choose the best stocks for citizens",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "label": "To manage monetary policy and support price stability",
+          "isCorrect": true,
+          "explanation": "A central bank uses monetary policy tools, such as policy rates and asset operations, to influence financial conditions and support goals like price stability."
+        },
+        {
+          "id": "c",
+          "label": "To set the salary of every worker",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "To guarantee profits for commercial banks",
+          "isCorrect": false
+        }
+      ],
+      "answer": "b",
+      "explanation": "A central bank uses monetary policy tools, such as policy rates and asset operations, to influence financial conditions and support goals like price stability.",
+      "tags": [
+        "central-bank",
+        "monetary-policy",
+        "price-stability"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-a-policy-interest-rate-011",
+      "type": "detail_meaning",
+      "category": "Central Banks and Monetary Policy",
+      "difficulty": "beginner",
+      "prompt": "What is a policy interest rate?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A rate that influences borrowing costs across the financial system",
+          "isCorrect": true,
+          "explanation": "A policy interest rate is a central bank rate that influences other interest rates in the economy, including borrowing and saving rates."
+        },
+        {
+          "id": "b",
+          "label": "A fixed return that every stock investor receives",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "A tax rate charged only on luxury goods",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "A company's internal profit margin",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A policy interest rate is a central bank rate that influences other interest rates in the economy, including borrowing and saving rates.",
+      "tags": [
+        "policy-rate",
+        "interest-rates",
+        "central-bank"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-a-bond-in-simple-investing-terms-012",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "beginner",
+      "prompt": "What is a bond, in simple investing terms?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A share of ownership in a company",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "label": "A loan made by an investor to a borrower such as a government or company",
+          "isCorrect": true,
+          "explanation": "A bond is essentially a loan: the investor lends money to an issuer, and the issuer promises interest payments and repayment under agreed terms."
+        },
+        {
+          "id": "c",
+          "label": "A type of bank account with no risk",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "A guarantee that stock prices will not fall",
+          "isCorrect": false
+        }
+      ],
+      "answer": "b",
+      "explanation": "A bond is essentially a loan: the investor lends money to an issuer, and the issuer promises interest payments and repayment under agreed terms.",
+      "tags": [
+        "bonds",
+        "fixed-income",
+        "loan"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-a-bond-coupon-013",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "beginner",
+      "prompt": "What is a bond coupon?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The bond's regular interest payment",
+          "isCorrect": true,
+          "explanation": "A coupon is the regular interest payment that a bond issuer promises to pay to bondholders."
+        },
+        {
+          "id": "b",
+          "label": "The bond's stock-market ticker",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The fee paid to sell a bond early",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The tax refund attached to a bond",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A coupon is the regular interest payment that a bond issuer promises to pay to bondholders.",
+      "tags": [
+        "coupon",
+        "bonds",
+        "interest"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-owning-a-stock-generally-represent-014",
+      "type": "detail_meaning",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "beginner",
+      "prompt": "What does owning a stock generally represent?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Ownership in part of a company",
+          "isCorrect": true,
+          "explanation": "A stock represents equity ownership in a company, which means the investor participates in the company's risks and potential rewards."
+        },
+        {
+          "id": "b",
+          "label": "A loan to a company with guaranteed repayment",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "A fixed monthly income contract",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "A government insurance policy",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A stock represents equity ownership in a company, which means the investor participates in the company's risks and potential rewards.",
+      "tags": [
+        "stocks",
+        "equity",
+        "ownership"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-common-term-for-a-cash-payment-th-015",
+      "type": "type_answer",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "beginner",
+      "prompt": "What is the common term for a cash payment that a company may distribute to shareholders from profits?",
+      "answer": "dividend",
+      "acceptedAnswers": [
+        "dividends"
+      ],
+      "explanation": "A dividend is a payment a company may make to shareholders, usually from profits or accumulated cash.",
+      "tags": [
+        "dividend",
+        "stocks",
+        "shareholders"
+      ]
+    },
+    {
+      "id": "economics-investing-why-can-a-company-s-stock-price-move-even-whe-016",
+      "type": "detail_meaning",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "beginner",
+      "prompt": "Why can a company's stock price move even when today's profits have not changed?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Stock prices reflect expectations about the future, not only current results",
+          "isCorrect": true,
+          "explanation": "Stock prices are forward-looking and can move when investors change expectations about future profits, risk, interest rates, or growth."
+        },
+        {
+          "id": "b",
+          "label": "Stock prices are legally required to change every day",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Only current profits matter, so this cannot happen",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The central bank directly sets each stock price",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Stock prices are forward-looking and can move when investors change expectations about future profits, risk, interest rates, or growth.",
+      "tags": [
+        "stock-prices",
+        "expectations",
+        "markets"
+      ]
+    },
+    {
+      "id": "economics-investing-what-three-letter-abbreviation-is-commonly-us-017",
+      "type": "type_answer",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "beginner",
+      "prompt": "What three-letter abbreviation is commonly used for an exchange-traded fund?",
+      "answer": "ETF",
+      "acceptedAnswers": [
+        "exchange-traded fund",
+        "exchange traded fund"
+      ],
+      "explanation": "ETF stands for exchange-traded fund, a fund that trades on an exchange like a stock and often holds many underlying securities.",
+      "tags": [
+        "etf",
+        "funds",
+        "investing"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-an-index-fund-usually-try-to-do-018",
+      "type": "what_does_it_do",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "beginner",
+      "prompt": "What does an index fund usually try to do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Track the performance of a specific market index",
+          "isCorrect": true,
+          "explanation": "An index fund usually aims to track a chosen index, such as a broad stock or bond market index, instead of trying to pick individual winners."
+        },
+        {
+          "id": "b",
+          "label": "Pick only one stock and hold it forever",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Guarantee a higher return than every active fund",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Avoid all market risk",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "An index fund usually aims to track a chosen index, such as a broad stock or bond market index, instead of trying to pick individual winners.",
+      "tags": [
+        "index-fund",
+        "passive-investing",
+        "funds"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-diversification-mainly-try-to-reduc-019",
+      "type": "what_does_it_do",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "beginner",
+      "prompt": "What does diversification mainly try to reduce?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The risk of depending too much on one investment or one source of return",
+          "isCorrect": true,
+          "explanation": "Diversification spreads money across different investments so that one bad outcome has less impact on the whole portfolio."
+        },
+        {
+          "id": "b",
+          "label": "The need to understand any investment",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "All possible losses in every market condition",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The amount of money needed to start investing",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Diversification spreads money across different investments so that one bad outcome has less impact on the whole portfolio.",
+      "tags": [
+        "diversification",
+        "portfolio",
+        "risk"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-liquidity-mean-in-investing-020",
+      "type": "detail_meaning",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "beginner",
+      "prompt": "What does liquidity mean in investing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "How easily an asset can be converted into cash without a large price discount",
+          "isCorrect": true,
+          "explanation": "Liquidity describes how easily an asset can be bought or sold for cash without strongly affecting its price."
+        },
+        {
+          "id": "b",
+          "label": "How quickly a company pays dividends",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "How much inflation exists in the economy",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "How often a central bank meets",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Liquidity describes how easily an asset can be bought or sold for cash without strongly affecting its price.",
+      "tags": [
+        "liquidity",
+        "markets",
+        "risk"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-risk-return-tradeoff-021",
+      "type": "detail_meaning",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "beginner",
+      "prompt": "What is the risk-return tradeoff?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The idea that higher expected returns usually require accepting higher risk",
+          "isCorrect": true,
+          "explanation": "Investors usually demand higher expected returns for taking higher risk, although higher risk never guarantees higher actual returns."
+        },
+        {
+          "id": "b",
+          "label": "The idea that risk disappears when returns are high",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The rule that every risky investment must lose money",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The guarantee that safe assets always outperform risky assets",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Investors usually demand higher expected returns for taking higher risk, although higher risk never guarantees higher actual returns.",
+      "tags": [
+        "risk-return",
+        "expected-return",
+        "risk"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-time-horizon-mean-for-an-investor-022",
+      "type": "detail_meaning",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "beginner",
+      "prompt": "What does time horizon mean for an investor?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The length of time before the investor expects to need the money",
+          "isCorrect": true,
+          "explanation": "Time horizon is how long an investor can keep money invested before needing it, which strongly affects suitable risk levels."
+        },
+        {
+          "id": "b",
+          "label": "The number of stocks in a portfolio",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The time of day when markets open",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The exact date when the next recession will start",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Time horizon is how long an investor can keep money invested before needing it, which strongly affects suitable risk levels.",
+      "tags": [
+        "time-horizon",
+        "investing",
+        "risk"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-compounding-do-to-investment-growth-023",
+      "type": "what_does_it_do",
+      "category": "Inflation and Interest Rates",
+      "difficulty": "beginner",
+      "prompt": "What does compounding do to investment growth?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It lets returns earn returns over time",
+          "isCorrect": true,
+          "explanation": "Compounding occurs when returns are reinvested and then generate additional returns, which can make time a powerful factor in growth."
+        },
+        {
+          "id": "b",
+          "label": "It removes the possibility of loss",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It converts stocks into bonds",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It makes inflation irrelevant",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Compounding occurs when returns are reinvested and then generate additional returns, which can make time a powerful factor in growth.",
+      "tags": [
+        "compounding",
+        "time-value",
+        "returns"
+      ]
+    },
+    {
+      "id": "economics-investing-if-an-investment-earns-6-and-inflation-is-2-w-024",
+      "type": "type_answer",
+      "category": "Inflation and Interest Rates",
+      "difficulty": "beginner",
+      "prompt": "If an investment earns 6% and inflation is 2%, what is the approximate real return?",
+      "answer": "4%",
+      "acceptedAnswers": [
+        "4 percent",
+        "about 4%",
+        "approximately 4%",
+        "0.04"
+      ],
+      "explanation": "A simple approximation for real return is nominal return minus inflation, so 6% minus 2% is about 4%.",
+      "tags": [
+        "real-return",
+        "inflation",
+        "calculation"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-yield-usually-refer-to-for-an-inves-025",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "beginner",
+      "prompt": "What does yield usually refer to for an investment?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The income return relative to the price or amount invested",
+          "isCorrect": true,
+          "explanation": "Yield usually expresses income from an investment, such as interest or dividends, relative to the investment's price or value."
+        },
+        {
+          "id": "b",
+          "label": "The number of shares a company has issued",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The official inflation target of a central bank",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The percentage of people unemployed",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Yield usually expresses income from an investment, such as interest or dividends, relative to the investment's price or value.",
+      "tags": [
+        "yield",
+        "income",
+        "investing"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-market-capitalization-mean-026",
+      "type": "detail_meaning",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "beginner",
+      "prompt": "What does market capitalization mean?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A company's total debt divided by its sales",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "label": "The total market value of a company's outstanding shares",
+          "isCorrect": true,
+          "explanation": "Market capitalization is calculated as share price multiplied by the number of shares outstanding, representing the market value of a company's equity."
+        },
+        {
+          "id": "c",
+          "label": "The amount of cash in a country's economy",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The yearly fee charged by an ETF",
+          "isCorrect": false
+        }
+      ],
+      "answer": "b",
+      "explanation": "Market capitalization is calculated as share price multiplied by the number of shares outstanding, representing the market value of a company's equity.",
+      "tags": [
+        "market-cap",
+        "stocks",
+        "valuation"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-term-for-broad-groups-of-investme-027",
+      "type": "type_answer",
+      "category": "Economic Basics",
+      "difficulty": "beginner",
+      "prompt": "What is the term for broad groups of investments such as stocks, bonds, cash, real estate, and commodities?",
+      "answer": "asset classes",
+      "acceptedAnswers": [
+        "asset class",
+        "classes of assets"
+      ],
+      "explanation": "Asset classes are broad categories of investments that often have different risk, return, and liquidity characteristics.",
+      "tags": [
+        "asset-classes",
+        "portfolio",
+        "investing"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-the-unemployment-rate-generally-mea-028",
+      "type": "detail_meaning",
+      "category": "Economic Basics",
+      "difficulty": "beginner",
+      "prompt": "What does the unemployment rate generally measure?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The share of the labor force that is without work and actively seeking work",
+          "isCorrect": true,
+          "explanation": "The unemployment rate measures the portion of the labor force that is unemployed and actively looking for work."
+        },
+        {
+          "id": "b",
+          "label": "The share of all citizens who own stocks",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The percentage of companies that went bankrupt",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The percentage change in consumer prices",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "The unemployment rate measures the portion of the labor force that is unemployed and actively looking for work.",
+      "tags": [
+        "unemployment",
+        "labor-market",
+        "macro"
+      ]
+    },
+    {
+      "id": "economics-investing-which-statement-best-separates-fiscal-policy-029",
+      "type": "detail_meaning",
+      "category": "Central Banks and Monetary Policy",
+      "difficulty": "beginner",
+      "prompt": "Which statement best separates fiscal policy from monetary policy?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Fiscal policy involves government spending and taxes; monetary policy involves central bank money and interest-rate tools",
+          "isCorrect": true,
+          "explanation": "Fiscal policy is mainly about government spending and taxation, while monetary policy is mainly conducted by central banks through money, rates, and financial conditions."
+        },
+        {
+          "id": "b",
+          "label": "Fiscal policy is done by companies; monetary policy is done by households",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Fiscal policy sets stock prices; monetary policy sets company salaries",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Fiscal policy only affects bonds; monetary policy only affects real estate",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Fiscal policy is mainly about government spending and taxation, while monetary policy is mainly conducted by central banks through money, rates, and financial conditions.",
+      "tags": [
+        "fiscal-policy",
+        "monetary-policy",
+        "macro"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-a-capital-gain-030",
+      "type": "detail_meaning",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "beginner",
+      "prompt": "What is a capital gain?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A profit from selling an asset for more than its purchase price",
+          "isCorrect": true,
+          "explanation": "A capital gain occurs when an asset is sold for more than its purchase price."
+        },
+        {
+          "id": "b",
+          "label": "A regular interest payment from a bond",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "A fee charged by a broker",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "A central bank's profit target",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A capital gain occurs when an asset is sold for more than its purchase price.",
+      "tags": [
+        "capital-gain",
+        "stocks",
+        "investing"
+      ]
+    },
+    {
+      "id": "economics-investing-how-is-compound-interest-different-from-simpl-031",
+      "type": "detail_meaning",
+      "category": "Inflation and Interest Rates",
+      "difficulty": "beginner",
+      "prompt": "How is compound interest different from simple interest?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Compound interest earns interest on past interest; simple interest does not",
+          "isCorrect": true,
+          "explanation": "Compound interest adds earned interest to the principal, allowing future interest to be earned on a larger base."
+        },
+        {
+          "id": "b",
+          "label": "Simple interest always pays more than compound interest",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Compound interest only applies to stocks",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Simple interest adjusts for inflation automatically",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Compound interest adds earned interest to the principal, allowing future interest to be earned on a larger base.",
+      "tags": [
+        "compound-interest",
+        "simple-interest",
+        "time-value"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-credit-risk-in-a-bond-032",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "beginner",
+      "prompt": "What is credit risk in a bond?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The risk that the bond issuer may fail to make promised payments",
+          "isCorrect": true,
+          "explanation": "Credit risk is the possibility that the borrower issuing the bond will not make interest or principal payments as promised."
+        },
+        {
+          "id": "b",
+          "label": "The risk that the stock market opens late",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The risk that inflation is reported monthly",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The risk that the bond pays interest too often",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Credit risk is the possibility that the borrower issuing the bond will not make interest or principal payments as promised.",
+      "tags": [
+        "credit-risk",
+        "bonds",
+        "default"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-an-exchange-rate-describe-033",
+      "type": "detail_meaning",
+      "category": "Markets and Supply and Demand",
+      "difficulty": "beginner",
+      "prompt": "What does an exchange rate describe?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The price of one currency in terms of another currency",
+          "isCorrect": true,
+          "explanation": "An exchange rate tells you how much of one currency is needed to buy another currency."
+        },
+        {
+          "id": "b",
+          "label": "The total number of shares traded in a day",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The interest rate on a mortgage only",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The exact return of a stock index",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "An exchange rate tells you how much of one currency is needed to buy another currency.",
+      "tags": [
+        "exchange-rate",
+        "currency",
+        "macro"
+      ]
+    },
+    {
+      "id": "economics-investing-what-animal-market-term-describes-a-period-of-034",
+      "type": "type_answer",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "beginner",
+      "prompt": "What animal-market term describes a period of generally rising stock prices?",
+      "answer": "bull market",
+      "acceptedAnswers": [
+        "bull",
+        "bullish market"
+      ],
+      "explanation": "A bull market describes a period in which prices, especially stock prices, are generally rising or expected to rise.",
+      "tags": [
+        "bull-market",
+        "stocks",
+        "market-cycle"
+      ]
+    },
+    {
+      "id": "economics-investing-market-interest-rates-rise-after-you-buy-a-fi-035",
+      "type": "pick_correct",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "intermediate",
+      "prompt": "Market interest rates rise after you buy a fixed-rate bond. What usually happens to the bond's market price?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It usually rises because old coupon payments become more valuable",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "label": "It usually falls because newer bonds can offer higher yields",
+          "isCorrect": true,
+          "explanation": "When market rates rise, existing fixed-rate bonds with lower coupons become less attractive, so their market prices generally fall."
+        },
+        {
+          "id": "c",
+          "label": "It must stay exactly at the purchase price",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It becomes a stock automatically",
+          "isCorrect": false
+        }
+      ],
+      "answer": "b",
+      "explanation": "When market rates rise, existing fixed-rate bonds with lower coupons become less attractive, so their market prices generally fall.",
+      "tags": [
+        "bond-prices",
+        "interest-rates",
+        "fixed-income"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-bond-duration-mainly-estimate-036",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "intermediate",
+      "prompt": "What does bond duration mainly estimate?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A bond's sensitivity to changes in interest rates",
+          "isCorrect": true,
+          "explanation": "Duration estimates how sensitive a bond's price is to interest-rate changes. Longer duration usually means greater price sensitivity."
+        },
+        {
+          "id": "b",
+          "label": "The exact number of companies in a bond fund",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The probability that a stock pays a dividend",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The tax rate on bond interest",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Duration estimates how sensitive a bond's price is to interest-rate changes. Longer duration usually means greater price sensitivity.",
+      "tags": [
+        "duration",
+        "bonds",
+        "interest-rate-risk"
+      ]
+    },
+    {
+      "id": "economics-investing-if-inflation-remains-above-target-for-a-long-037",
+      "type": "pick_correct",
+      "category": "Central Banks and Monetary Policy",
+      "difficulty": "intermediate",
+      "prompt": "If inflation remains above target for a long time, what action might a central bank consider?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Lowering rates to make borrowing more attractive",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "label": "Raising policy rates to cool demand and reduce inflation pressure",
+          "isCorrect": true,
+          "explanation": "A central bank may raise policy rates to make borrowing more expensive, cool demand, and reduce inflation pressure, although outcomes are not instant or guaranteed."
+        },
+        {
+          "id": "c",
+          "label": "Buying every listed stock to support prices",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Replacing fiscal policy with company dividends",
+          "isCorrect": false
+        }
+      ],
+      "answer": "b",
+      "explanation": "A central bank may raise policy rates to make borrowing more expensive, cool demand, and reduce inflation pressure, although outcomes are not instant or guaranteed.",
+      "tags": [
+        "inflation",
+        "policy-rate",
+        "central-bank"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-approximate-term-for-the-interest-038",
+      "type": "type_answer",
+      "category": "Inflation and Interest Rates",
+      "difficulty": "intermediate",
+      "prompt": "What is the approximate term for the interest rate after adjusting for inflation?",
+      "answer": "real interest rate",
+      "acceptedAnswers": [
+        "real rate",
+        "real yield"
+      ],
+      "explanation": "The real interest rate adjusts a nominal interest rate for inflation, giving a clearer sense of purchasing-power return.",
+      "tags": [
+        "real-rate",
+        "inflation",
+        "interest-rates"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-an-inverted-yield-curve-usually-mea-039",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "intermediate",
+      "prompt": "What does an inverted yield curve usually mean?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Long-term yields are below short-term yields",
+          "isCorrect": true,
+          "explanation": "An inverted yield curve means short-term yields are higher than long-term yields. It can signal expectations of slower growth or future rate cuts, but it is not a perfect prediction tool."
+        },
+        {
+          "id": "b",
+          "label": "Every bond has defaulted",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Stock dividends are higher than bond coupons",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Inflation must be exactly zero",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "An inverted yield curve means short-term yields are higher than long-term yields. It can signal expectations of slower growth or future rate cuts, but it is not a perfect prediction tool.",
+      "tags": [
+        "yield-curve",
+        "bonds",
+        "macro"
+      ]
+    },
+    {
+      "id": "economics-investing-you-invest-money-you-may-need-in-six-months-w-040",
+      "type": "pick_correct",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "intermediate",
+      "prompt": "You invest money you may need in six months. Which principle matters most?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Short time horizons usually call for lower volatility and higher liquidity",
+          "isCorrect": true,
+          "explanation": "Money needed soon has less time to recover from market declines, so liquidity and lower volatility are usually more important."
+        },
+        {
+          "id": "b",
+          "label": "Short time horizons are ideal for the riskiest assets",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Time horizon does not matter if expected return is high",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "You should ignore liquidity if inflation exists",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Money needed soon has less time to recover from market declines, so liquidity and lower volatility are usually more important.",
+      "tags": [
+        "time-horizon",
+        "liquidity",
+        "risk"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-an-etf-expense-ratio-represent-041",
+      "type": "detail_meaning",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "intermediate",
+      "prompt": "What does an ETF expense ratio represent?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The fund's annual operating cost as a percentage of invested assets",
+          "isCorrect": true,
+          "explanation": "An expense ratio is the annual cost charged by a fund, expressed as a percentage of assets. Lower costs leave more of the return for the investor."
+        },
+        {
+          "id": "b",
+          "label": "The guaranteed annual return of the ETF",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The number of stocks inside the ETF",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The tax rate on ETF dividends only",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "An expense ratio is the annual cost charged by a fund, expressed as a percentage of assets. Lower costs leave more of the return for the investor.",
+      "tags": [
+        "expense-ratio",
+        "etf",
+        "fees"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-a-key-difference-between-active-and-p-042",
+      "type": "detail_meaning",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "intermediate",
+      "prompt": "What is a key difference between active and passive investing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Active investing tries to outperform a benchmark; passive investing usually tries to track one",
+          "isCorrect": true,
+          "explanation": "Active investing attempts to beat a benchmark through selection or timing, while passive investing usually aims to track a benchmark at lower cost."
+        },
+        {
+          "id": "b",
+          "label": "Passive investing means holding only cash",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Active investing is always cheaper than passive investing",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Passive investing guarantees no losses",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Active investing attempts to beat a benchmark through selection or timing, while passive investing usually aims to track a benchmark at lower cost.",
+      "tags": [
+        "active-investing",
+        "passive-investing",
+        "funds"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-portfolio-rebalancing-do-043",
+      "type": "what_does_it_do",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "intermediate",
+      "prompt": "What does portfolio rebalancing do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It brings a portfolio back toward its target asset allocation",
+          "isCorrect": true,
+          "explanation": "Rebalancing adjusts portfolio weights back toward a chosen plan, which helps manage risk after some assets rise or fall more than others."
+        },
+        {
+          "id": "b",
+          "label": "It guarantees a positive return each year",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It removes all tax obligations",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It changes every investment into cash",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Rebalancing adjusts portfolio weights back toward a chosen plan, which helps manage risk after some assets rise or fall more than others.",
+      "tags": [
+        "rebalancing",
+        "asset-allocation",
+        "portfolio"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-concentration-risk-044",
+      "type": "detail_meaning",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "intermediate",
+      "prompt": "What is concentration risk?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The risk of having too much exposure to one company, sector, country, or asset",
+          "isCorrect": true,
+          "explanation": "Concentration risk appears when too much of a portfolio depends on one source of performance, making the portfolio more vulnerable to a specific negative event."
+        },
+        {
+          "id": "b",
+          "label": "The risk that a portfolio owns too many different investments",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The risk that inflation reports are delayed",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The risk that cash earns interest",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Concentration risk appears when too much of a portfolio depends on one source of performance, making the portfolio more vulnerable to a specific negative event.",
+      "tags": [
+        "concentration-risk",
+        "diversification",
+        "portfolio"
+      ]
+    },
+    {
+      "id": "economics-investing-why-are-dividends-not-automatically-free-mone-045",
+      "type": "detail_meaning",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "intermediate",
+      "prompt": "Why are dividends not automatically 'free money' for investors?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A company's value may fall by roughly the dividend amount when cash leaves the company",
+          "isCorrect": true,
+          "explanation": "A dividend transfers cash from the company to shareholders, so the company's value may adjust downward by roughly the amount paid, all else equal."
+        },
+        {
+          "id": "b",
+          "label": "Dividends are illegal in most stock markets",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Dividends always mean a company is losing money",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Receiving a dividend cancels stock ownership",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A dividend transfers cash from the company to shareholders, so the company's value may adjust downward by roughly the amount paid, all else equal.",
+      "tags": [
+        "dividends",
+        "stocks",
+        "total-return"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-the-price-to-earnings-ratio-compare-046",
+      "type": "detail_meaning",
+      "category": "Valuation and Investment Decisions",
+      "difficulty": "intermediate",
+      "prompt": "What does the price-to-earnings ratio compare?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A company's stock price to its earnings per share",
+          "isCorrect": true,
+          "explanation": "The P/E ratio compares a company's share price with its earnings per share, giving a rough measure of how much investors pay for each unit of earnings."
+        },
+        {
+          "id": "b",
+          "label": "A bond coupon to a central bank rate",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "A country's exports to its imports",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "A fund's expense ratio to its number of holdings",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "The P/E ratio compares a company's share price with its earnings per share, giving a rough measure of how much investors pay for each unit of earnings.",
+      "tags": [
+        "pe-ratio",
+        "valuation",
+        "stocks"
+      ]
+    },
+    {
+      "id": "economics-investing-a-company-s-earnings-grow-but-its-stock-price-047",
+      "type": "pick_correct",
+      "category": "Valuation and Investment Decisions",
+      "difficulty": "intermediate",
+      "prompt": "A company's earnings grow, but its stock price falls. Which explanation is most reasonable?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Investors may have expected even stronger earnings or now see higher risk",
+          "isCorrect": true,
+          "explanation": "Stock prices depend on expectations. If results are good but worse than expected, or if risk rises, the price can still fall."
+        },
+        {
+          "id": "b",
+          "label": "This is impossible because earnings and stock prices must always move together",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The company must have stopped existing",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "All dividends must have been cancelled by law",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Stock prices depend on expectations. If results are good but worse than expected, or if risk rises, the price can still fall.",
+      "tags": [
+        "expectations",
+        "earnings",
+        "valuation"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-it-mean-when-an-asset-is-described-048",
+      "type": "detail_meaning",
+      "category": "Valuation and Investment Decisions",
+      "difficulty": "intermediate",
+      "prompt": "What does it mean when an asset is described as overvalued?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Its market price may be high relative to its fundamentals or expected cash flows",
+          "isCorrect": true,
+          "explanation": "An overvalued asset is priced high compared with what its fundamentals, cash flows, or risks may justify."
+        },
+        {
+          "id": "b",
+          "label": "Its price is low enough to remove all risk",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It pays too much interest by law",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It cannot be traded in a market",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "An overvalued asset is priced high compared with what its fundamentals, cash flows, or risks may justify.",
+      "tags": [
+        "overvaluation",
+        "valuation",
+        "fundamentals"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-dollar-cost-averaging-mainly-do-049",
+      "type": "what_does_it_do",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "intermediate",
+      "prompt": "What does dollar-cost averaging mainly do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It spreads purchases over time instead of investing all at once",
+          "isCorrect": true,
+          "explanation": "Dollar-cost averaging spreads investment purchases across different dates, which can reduce the risk of investing all money just before a price decline."
+        },
+        {
+          "id": "b",
+          "label": "It guarantees buying only at the lowest price",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It removes market risk completely",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It turns every investment into a bond",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Dollar-cost averaging spreads investment purchases across different dates, which can reduce the risk of investing all money just before a price decline.",
+      "tags": [
+        "dollar-cost-averaging",
+        "timing-risk",
+        "investing"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-difference-between-risk-tolerance-050",
+      "type": "detail_meaning",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "intermediate",
+      "prompt": "What is the difference between risk tolerance and risk capacity?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Risk tolerance is emotional comfort with risk; risk capacity is financial ability to take risk",
+          "isCorrect": true,
+          "explanation": "Risk tolerance is how comfortable someone feels with uncertainty, while risk capacity is how much risk their finances and time horizon can actually support."
+        },
+        {
+          "id": "b",
+          "label": "Risk tolerance applies only to bonds; risk capacity applies only to stocks",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "They mean exactly the same thing",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Risk capacity is always higher than risk tolerance",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Risk tolerance is how comfortable someone feels with uncertainty, while risk capacity is how much risk their finances and time horizon can actually support.",
+      "tags": [
+        "risk-tolerance",
+        "risk-capacity",
+        "financial-planning"
+      ]
+    },
+    {
+      "id": "economics-investing-why-is-volatility-not-exactly-the-same-as-per-051",
+      "type": "detail_meaning",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "intermediate",
+      "prompt": "Why is volatility not exactly the same as permanent loss?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Volatility is price movement; permanent loss happens when value is destroyed or an asset is sold after an unrecovered decline",
+          "isCorrect": true,
+          "explanation": "Volatility describes fluctuations in price. A permanent loss is different because capital is not recovered, often due to business failure, default, or selling after a major decline."
+        },
+        {
+          "id": "b",
+          "label": "Volatility means a company has no revenue",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Permanent loss happens every time a price moves",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Volatility only exists in savings accounts",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Volatility describes fluctuations in price. A permanent loss is different because capital is not recovered, often due to business failure, default, or selling after a major decline.",
+      "tags": [
+        "volatility",
+        "permanent-loss",
+        "risk"
+      ]
+    },
+    {
+      "id": "economics-investing-which-pair-correctly-names-two-major-bond-ris-052",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "intermediate",
+      "prompt": "Which pair correctly names two major bond risks?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Default risk and interest-rate risk",
+          "isCorrect": true,
+          "explanation": "Bond investors commonly face default risk, where the issuer may not pay, and interest-rate risk, where changing rates affect bond prices."
+        },
+        {
+          "id": "b",
+          "label": "Dividend risk and voting risk",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Inventory risk and advertising risk",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Import risk and payroll risk",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Bond investors commonly face default risk, where the issuer may not pay, and interest-rate risk, where changing rates affect bond prices.",
+      "tags": [
+        "bond-risk",
+        "default-risk",
+        "interest-rate-risk"
+      ]
+    },
+    {
+      "id": "economics-investing-compared-with-government-bonds-from-financial-053",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "intermediate",
+      "prompt": "Compared with government bonds from financially strong countries, corporate bonds usually offer higher yields mainly because they often carry more:",
+      "options": [
+        {
+          "id": "a",
+          "label": "Credit risk",
+          "isCorrect": true,
+          "explanation": "Corporate bonds often offer higher yields because investors require compensation for higher issuer-specific credit risk."
+        },
+        {
+          "id": "b",
+          "label": "Voting power",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Ownership rights",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Central bank control",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Corporate bonds often offer higher yields because investors require compensation for higher issuer-specific credit risk.",
+      "tags": [
+        "corporate-bonds",
+        "government-bonds",
+        "credit-risk"
+      ]
+    },
+    {
+      "id": "economics-investing-how-does-real-gdp-differ-from-nominal-gdp-054",
+      "type": "detail_meaning",
+      "category": "Economic Basics",
+      "difficulty": "intermediate",
+      "prompt": "How does real GDP differ from nominal GDP?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Real GDP adjusts for inflation; nominal GDP uses current prices",
+          "isCorrect": true,
+          "explanation": "Real GDP adjusts output for price changes, making it better for comparing production across time."
+        },
+        {
+          "id": "b",
+          "label": "Real GDP counts only exports; nominal GDP counts only imports",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Real GDP measures stock prices; nominal GDP measures bond prices",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Real GDP is always larger than nominal GDP",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Real GDP adjusts output for price changes, making it better for comparing production across time.",
+      "tags": [
+        "real-gdp",
+        "nominal-gdp",
+        "inflation"
+      ]
+    },
+    {
+      "id": "economics-investing-which-example-is-closest-to-a-negative-supply-055",
+      "type": "pick_correct",
+      "category": "Markets and Supply and Demand",
+      "difficulty": "intermediate",
+      "prompt": "Which example is closest to a negative supply shock?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A sudden shortage of an important input raises production costs",
+          "isCorrect": true,
+          "explanation": "A negative supply shock reduces supply or raises production costs, which can push prices higher and output lower."
+        },
+        {
+          "id": "b",
+          "label": "Consumers become more interested in a product because of a trend",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "A company lowers prices after improving productivity",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "A central bank publishes an inflation report",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A negative supply shock reduces supply or raises production costs, which can push prices higher and output lower.",
+      "tags": [
+        "supply-shock",
+        "inflation",
+        "macro"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-price-elasticity-of-demand-describe-056",
+      "type": "detail_meaning",
+      "category": "Markets and Supply and Demand",
+      "difficulty": "intermediate",
+      "prompt": "What does price elasticity of demand describe?",
+      "options": [
+        {
+          "id": "a",
+          "label": "How sensitive quantity demanded is to a change in price",
+          "isCorrect": true,
+          "explanation": "Price elasticity of demand measures how much demand changes when price changes."
+        },
+        {
+          "id": "b",
+          "label": "How quickly a company can issue new shares",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "How much tax a bond investor pays",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "How long a recession lasts",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Price elasticity of demand measures how much demand changes when price changes.",
+      "tags": [
+        "elasticity",
+        "demand",
+        "prices"
+      ]
+    },
+    {
+      "id": "economics-investing-why-do-central-bank-rate-changes-affect-the-e-057",
+      "type": "detail_meaning",
+      "category": "Central Banks and Monetary Policy",
+      "difficulty": "intermediate",
+      "prompt": "Why do central bank rate changes affect the economy with a delay?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Borrowing, spending, hiring, and investment decisions take time to adjust",
+          "isCorrect": true,
+          "explanation": "Monetary policy works through financial conditions and real-world decisions, and those channels usually take time to influence inflation and growth."
+        },
+        {
+          "id": "b",
+          "label": "The rate change is secret for several years",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Only stock traders can see the rate change",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Prices are legally fixed after every meeting",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Monetary policy works through financial conditions and real-world decisions, and those channels usually take time to influence inflation and growth.",
+      "tags": [
+        "monetary-policy",
+        "policy-lags",
+        "interest-rates"
+      ]
+    },
+    {
+      "id": "economics-investing-why-is-central-bank-credibility-important-058",
+      "type": "detail_meaning",
+      "category": "Central Banks and Monetary Policy",
+      "difficulty": "intermediate",
+      "prompt": "Why is central bank credibility important?",
+      "options": [
+        {
+          "id": "a",
+          "label": "People's inflation expectations can influence wage setting, pricing, and long-term interest rates",
+          "isCorrect": true,
+          "explanation": "If people trust that a central bank will control inflation, expectations may stay better anchored, which can make inflation easier to manage."
+        },
+        {
+          "id": "b",
+          "label": "It allows the central bank to choose every company's CEO",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It guarantees that no recession can occur",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It makes all government debt disappear",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "If people trust that a central bank will control inflation, expectations may stay better anchored, which can make inflation easier to manage.",
+      "tags": [
+        "central-bank",
+        "credibility",
+        "inflation-expectations"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-a-fiscal-deficit-059",
+      "type": "detail_meaning",
+      "category": "Economic Basics",
+      "difficulty": "intermediate",
+      "prompt": "What is a fiscal deficit?",
+      "options": [
+        {
+          "id": "a",
+          "label": "When government spending exceeds government revenue over a period",
+          "isCorrect": true,
+          "explanation": "A fiscal deficit occurs when a government spends more than it collects in revenue during a period, usually requiring borrowing."
+        },
+        {
+          "id": "b",
+          "label": "When exports exceed imports",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "When a company pays a dividend",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "When a central bank lowers interest rates",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A fiscal deficit occurs when a government spends more than it collects in revenue during a period, usually requiring borrowing.",
+      "tags": [
+        "fiscal-deficit",
+        "government-debt",
+        "macro"
+      ]
+    },
+    {
+      "id": "economics-investing-why-should-an-investor-not-assume-stocks-and-060",
+      "type": "pick_correct",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "intermediate",
+      "prompt": "Why should an investor not assume stocks and bonds always move in opposite directions?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Correlations can change depending on inflation, growth, and interest-rate conditions",
+          "isCorrect": true,
+          "explanation": "Stock-bond correlations are not fixed. In some environments, especially when inflation or rates dominate markets, both can fall together."
+        },
+        {
+          "id": "b",
+          "label": "Bonds are not traded in markets",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Stocks and bonds are the same asset class",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Diversification is illegal during inflation",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Stock-bond correlations are not fixed. In some environments, especially when inflation or rates dominate markets, both can fall together.",
+      "tags": [
+        "correlation",
+        "stocks",
+        "bonds"
+      ]
+    },
+    {
+      "id": "economics-investing-what-extra-risk-can-international-investing-a-061",
+      "type": "detail_meaning",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "intermediate",
+      "prompt": "What extra risk can international investing add?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Currency risk from exchange-rate movements",
+          "isCorrect": true,
+          "explanation": "International investments can add currency risk because returns in the investor's home currency depend partly on exchange-rate movements."
+        },
+        {
+          "id": "b",
+          "label": "The guarantee of lower returns",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The removal of all diversification benefits",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The obligation to buy only government bonds",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "International investments can add currency risk because returns in the investor's home currency depend partly on exchange-rate movements.",
+      "tags": [
+        "international-investing",
+        "currency-risk",
+        "diversification"
+      ]
+    },
+    {
+      "id": "economics-investing-what-do-inflation-protected-bonds-try-to-do-062",
+      "type": "what_does_it_do",
+      "category": "Inflation and Interest Rates",
+      "difficulty": "intermediate",
+      "prompt": "What do inflation-protected bonds try to do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Adjust payments or principal in a way that helps protect against inflation",
+          "isCorrect": true,
+          "explanation": "Inflation-protected bonds are designed so that payments or principal adjust with inflation, helping preserve purchasing power relative to ordinary nominal bonds."
+        },
+        {
+          "id": "b",
+          "label": "Guarantee high stock-market returns",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Remove all default risk from every issuer",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Set the official inflation rate",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Inflation-protected bonds are designed so that payments or principal adjust with inflation, helping preserve purchasing power relative to ordinary nominal bonds.",
+      "tags": [
+        "inflation-protected-bonds",
+        "real-return",
+        "fixed-income"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-common-term-for-an-agency-s-asses-063",
+      "type": "type_answer",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "intermediate",
+      "prompt": "What is the common term for an agency's assessment of a borrower's ability to repay debt?",
+      "answer": "credit rating",
+      "acceptedAnswers": [
+        "bond rating",
+        "debt rating",
+        "issuer rating"
+      ],
+      "explanation": "A credit rating is an assessment of creditworthiness, often used by bond investors to judge default risk.",
+      "tags": [
+        "credit-rating",
+        "bonds",
+        "default-risk"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-a-mutual-fund-s-nav-064",
+      "type": "detail_meaning",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "intermediate",
+      "prompt": "What is a mutual fund's NAV?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The per-share value of the fund's assets minus liabilities",
+          "isCorrect": true,
+          "explanation": "NAV, or net asset value, is the value of a fund's assets minus liabilities divided by the number of fund shares or units."
+        },
+        {
+          "id": "b",
+          "label": "The fund manager's salary",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The number of trades made each day",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The guaranteed return of the fund",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "NAV, or net asset value, is the value of a fund's assets minus liabilities divided by the number of fund shares or units.",
+      "tags": [
+        "nav",
+        "mutual-fund",
+        "funds"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-bid-ask-spread-065",
+      "type": "detail_meaning",
+      "category": "Markets and Supply and Demand",
+      "difficulty": "intermediate",
+      "prompt": "What is the bid-ask spread?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The difference between the price buyers offer and the price sellers ask",
+          "isCorrect": true,
+          "explanation": "The bid-ask spread is the gap between the highest price buyers are currently willing to pay and the lowest price sellers are willing to accept."
+        },
+        {
+          "id": "b",
+          "label": "The difference between inflation and GDP growth",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The gap between a company's revenue and profit",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The annual fee charged by a bond issuer",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "The bid-ask spread is the gap between the highest price buyers are currently willing to pay and the lowest price sellers are willing to accept.",
+      "tags": [
+        "bid-ask-spread",
+        "liquidity",
+        "trading"
+      ]
+    },
+    {
+      "id": "economics-investing-why-might-a-limit-order-be-safer-than-a-marke-066",
+      "type": "pick_correct",
+      "category": "Markets and Supply and Demand",
+      "difficulty": "intermediate",
+      "prompt": "Why might a limit order be safer than a market order in a thinly traded asset?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It sets a maximum buying price or minimum selling price instead of accepting any available price",
+          "isCorrect": true,
+          "explanation": "A limit order controls the worst acceptable price, which can protect against poor execution when bid-ask spreads are wide or liquidity is low."
+        },
+        {
+          "id": "b",
+          "label": "It guarantees the order will be filled immediately",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It prevents all investment losses",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It makes the asset more diversified",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A limit order controls the worst acceptable price, which can protect against poor execution when bid-ask spreads are wide or liquidity is low.",
+      "tags": [
+        "limit-order",
+        "market-order",
+        "liquidity"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-reinvesting-dividends-do-over-time-067",
+      "type": "what_does_it_do",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "intermediate",
+      "prompt": "What does reinvesting dividends do over time?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It can increase compounding by buying more shares instead of taking the cash out",
+          "isCorrect": true,
+          "explanation": "Reinvesting dividends keeps more money working in the investment and can strengthen compounding over long periods."
+        },
+        {
+          "id": "b",
+          "label": "It makes dividends tax-free in every country",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It prevents stock prices from falling",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It changes the stock into a bond",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Reinvesting dividends keeps more money working in the investment and can strengthen compounding over long periods.",
+      "tags": [
+        "dividend-reinvestment",
+        "compounding",
+        "total-return"
+      ]
+    },
+    {
+      "id": "economics-investing-a-bond-fund-has-a-duration-of-about-7-years-w-068",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "advanced",
+      "prompt": "A bond fund has a duration of about 7 years. What does that roughly imply?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A 1 percentage point rise in rates could reduce its price by about 7%, before other effects",
+          "isCorrect": true,
+          "explanation": "Duration gives a rough estimate of interest-rate sensitivity. A duration of 7 suggests a 1 percentage point rate increase may lower price by about 7%, before convexity and other factors."
+        },
+        {
+          "id": "b",
+          "label": "The fund must mature exactly in 7 calendar years",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The fund is risk-free for 7 years",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The fund pays a 7% coupon by definition",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Duration gives a rough estimate of interest-rate sensitivity. A duration of 7 suggests a 1 percentage point rate increase may lower price by about 7%, before convexity and other factors.",
+      "tags": [
+        "duration",
+        "bond-funds",
+        "interest-rate-risk"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-bond-convexity-add-to-duration-anal-069",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "advanced",
+      "prompt": "What does bond convexity add to duration analysis?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It accounts for the fact that the price-rate relationship is curved, not perfectly linear",
+          "isCorrect": true,
+          "explanation": "Convexity improves duration analysis by recognizing that bond prices do not change in a perfectly straight line as yields change."
+        },
+        {
+          "id": "b",
+          "label": "It measures only the issuer's credit rating",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It guarantees that long bonds cannot lose money",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It removes the need to estimate interest-rate risk",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Convexity improves duration analysis by recognizing that bond prices do not change in a perfectly straight line as yields change.",
+      "tags": [
+        "convexity",
+        "duration",
+        "bonds"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-term-for-extra-yield-investors-ma-070",
+      "type": "type_answer",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "advanced",
+      "prompt": "What is the term for extra yield investors may demand for holding longer-term bonds instead of rolling short-term bonds?",
+      "answer": "term premium",
+      "acceptedAnswers": [
+        "term risk premium"
+      ],
+      "explanation": "The term premium is the extra compensation investors may require for the risks and uncertainty of holding longer-term bonds.",
+      "tags": [
+        "term-premium",
+        "yield-curve",
+        "bonds"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-a-positive-real-yield-mean-071",
+      "type": "detail_meaning",
+      "category": "Inflation and Interest Rates",
+      "difficulty": "advanced",
+      "prompt": "What does a positive real yield mean?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The yield is above expected inflation before considering taxes and other costs",
+          "isCorrect": true,
+          "explanation": "A positive real yield means the yield is above expected inflation, so it offers a positive return in purchasing-power terms before taxes and other costs."
+        },
+        {
+          "id": "b",
+          "label": "The investment has no risk",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The nominal yield is below inflation",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The bond must beat every stock index",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A positive real yield means the yield is above expected inflation, so it offers a positive return in purchasing-power terms before taxes and other costs.",
+      "tags": [
+        "real-yield",
+        "inflation",
+        "bonds"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-a-discounted-cash-flow-model-try-to-072",
+      "type": "what_does_it_do",
+      "category": "Valuation and Investment Decisions",
+      "difficulty": "advanced",
+      "prompt": "What does a discounted cash flow model try to do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Estimate value by translating expected future cash flows into today's money",
+          "isCorrect": true,
+          "explanation": "A discounted cash flow model estimates present value by discounting expected future cash flows back to today using a required return or discount rate."
+        },
+        {
+          "id": "b",
+          "label": "Predict tomorrow's exact stock price",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Measure only a company's social media activity",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Calculate a bond's credit rating",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A discounted cash flow model estimates present value by discounting expected future cash flows back to today using a required return or discount rate.",
+      "tags": [
+        "dcf",
+        "valuation",
+        "cash-flow"
+      ]
+    },
+    {
+      "id": "economics-investing-in-valuation-what-does-a-higher-discount-rate-073",
+      "type": "detail_meaning",
+      "category": "Valuation and Investment Decisions",
+      "difficulty": "advanced",
+      "prompt": "In valuation, what does a higher discount rate usually do to the present value of future cash flows?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It lowers present value",
+          "isCorrect": true,
+          "explanation": "A higher discount rate reduces the value today of cash flows expected in the future because the required return is higher."
+        },
+        {
+          "id": "b",
+          "label": "It raises present value",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It has no effect",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It guarantees the cash flows will occur",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A higher discount rate reduces the value today of cash flows expected in the future because the required return is higher.",
+      "tags": [
+        "discount-rate",
+        "present-value",
+        "valuation"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-common-term-for-the-extra-return-074",
+      "type": "type_answer",
+      "category": "Valuation and Investment Decisions",
+      "difficulty": "advanced",
+      "prompt": "What is the common term for the extra return investors expect from stocks over safer assets?",
+      "answer": "equity risk premium",
+      "acceptedAnswers": [
+        "stock risk premium",
+        "equity premium"
+      ],
+      "explanation": "The equity risk premium is the expected extra return investors require for taking equity risk instead of holding safer assets.",
+      "tags": [
+        "equity-risk-premium",
+        "stocks",
+        "expected-return"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-a-margin-of-safety-try-to-provide-075",
+      "type": "what_does_it_do",
+      "category": "Valuation and Investment Decisions",
+      "difficulty": "advanced",
+      "prompt": "What does a margin of safety try to provide?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A buffer between estimated value and purchase price in case the analysis is wrong",
+          "isCorrect": true,
+          "explanation": "A margin of safety means buying at a price sufficiently below estimated value to allow room for uncertainty and analytical errors."
+        },
+        {
+          "id": "b",
+          "label": "A guarantee that the investment cannot fall",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "A way to avoid reading financial statements",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "A rule that only applies to bank deposits",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A margin of safety means buying at a price sufficiently below estimated value to allow room for uncertainty and analytical errors.",
+      "tags": [
+        "margin-of-safety",
+        "valuation",
+        "risk"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-sequence-of-returns-risk-076",
+      "type": "detail_meaning",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "advanced",
+      "prompt": "What is sequence-of-returns risk?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The risk that poor returns occur at a bad time, especially when withdrawing money",
+          "isCorrect": true,
+          "explanation": "Sequence-of-returns risk is about timing: the same average return can produce different outcomes depending on when gains and losses happen, especially during withdrawals."
+        },
+        {
+          "id": "b",
+          "label": "The risk that all assets have the same return every year",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The guarantee that early losses are always recovered immediately",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The risk that dividends are paid in the wrong month",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Sequence-of-returns risk is about timing: the same average return can produce different outcomes depending on when gains and losses happen, especially during withdrawals.",
+      "tags": [
+        "sequence-risk",
+        "retirement",
+        "returns"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-a-high-valuation-ratio-often-imply-077",
+      "type": "detail_meaning",
+      "category": "Valuation and Investment Decisions",
+      "difficulty": "advanced",
+      "prompt": "What does a high valuation ratio often imply for future expected returns, all else equal?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Future expected returns may be lower because more optimism is already priced in",
+          "isCorrect": true,
+          "explanation": "High valuation can mean investors are paying a lot for expected future cash flows, which can reduce future expected returns if fundamentals do not exceed expectations."
+        },
+        {
+          "id": "b",
+          "label": "Future returns are guaranteed to be higher",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The company has no business risk",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The asset cannot become more expensive",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "High valuation can mean investors are paying a lot for expected future cash flows, which can reduce future expected returns if fundamentals do not exceed expectations.",
+      "tags": [
+        "valuation",
+        "expected-return",
+        "pe-ratio"
+      ]
+    },
+    {
+      "id": "economics-investing-what-term-measures-how-sensitive-a-stock-or-p-078",
+      "type": "type_answer",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "advanced",
+      "prompt": "What term measures how sensitive a stock or portfolio is to movements in the overall market?",
+      "answer": "beta",
+      "acceptedAnswers": [
+        "market beta"
+      ],
+      "explanation": "Beta measures an investment's sensitivity to broad market movements. A beta above 1 usually means higher market sensitivity than the benchmark.",
+      "tags": [
+        "beta",
+        "market-risk",
+        "stocks"
+      ]
+    },
+    {
+      "id": "economics-investing-what-term-describes-return-above-a-benchmark-079",
+      "type": "type_answer",
+      "category": "Valuation and Investment Decisions",
+      "difficulty": "advanced",
+      "prompt": "What term describes return above a benchmark after adjusting for market exposure or risk model assumptions?",
+      "answer": "alpha",
+      "acceptedAnswers": [
+        "excess return",
+        "risk-adjusted excess return"
+      ],
+      "explanation": "Alpha is often used to describe performance above what a benchmark or risk model would predict, though it is difficult to achieve consistently.",
+      "tags": [
+        "alpha",
+        "benchmark",
+        "performance"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-tracking-error-080",
+      "type": "detail_meaning",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "advanced",
+      "prompt": "What is tracking error?",
+      "options": [
+        {
+          "id": "a",
+          "label": "How much a fund's returns deviate from the returns of its benchmark",
+          "isCorrect": true,
+          "explanation": "Tracking error measures how closely a fund follows its benchmark. Lower tracking error means performance is closer to the benchmark."
+        },
+        {
+          "id": "b",
+          "label": "The fee paid to buy a fund",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The number of stocks in an index",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The tax rate applied to dividends",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Tracking error measures how closely a fund follows its benchmark. Lower tracking error means performance is closer to the benchmark.",
+      "tags": [
+        "tracking-error",
+        "index-fund",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-factor-investing-081",
+      "type": "detail_meaning",
+      "category": "Valuation and Investment Decisions",
+      "difficulty": "advanced",
+      "prompt": "What is factor investing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Investing based on characteristics such as value, size, quality, momentum, or low volatility",
+          "isCorrect": true,
+          "explanation": "Factor investing targets broad characteristics that research links to differences in risk or return, such as value, size, momentum, quality, or low volatility."
+        },
+        {
+          "id": "b",
+          "label": "Investing only in companies with one founder",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Buying stocks randomly without any method",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Holding only cash when interest rates change",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Factor investing targets broad characteristics that research links to differences in risk or return, such as value, size, momentum, quality, or low volatility.",
+      "tags": [
+        "factor-investing",
+        "portfolio",
+        "risk-premia"
+      ]
+    },
+    {
+      "id": "economics-investing-which-statement-best-describes-value-versus-g-082",
+      "type": "detail_meaning",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "advanced",
+      "prompt": "Which statement best describes value versus growth investing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Value focuses on lower prices relative to fundamentals; growth focuses on companies expected to grow faster",
+          "isCorrect": true,
+          "explanation": "Value investing emphasizes price relative to fundamentals, while growth investing emphasizes companies expected to increase revenue or earnings faster."
+        },
+        {
+          "id": "b",
+          "label": "Value means buying only bonds; growth means buying only commodities",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Value stocks cannot fall; growth stocks cannot pay dividends",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Both terms mean exactly the same strategy",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Value investing emphasizes price relative to fundamentals, while growth investing emphasizes companies expected to increase revenue or earnings faster.",
+      "tags": [
+        "value-investing",
+        "growth-investing",
+        "stocks"
+      ]
+    },
+    {
+      "id": "economics-investing-why-is-a-historical-small-cap-premium-not-a-g-083",
+      "type": "detail_meaning",
+      "category": "Stocks and Equity Investing",
+      "difficulty": "advanced",
+      "prompt": "Why is a historical small-cap premium not a guaranteed future return?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Past patterns can weaken, disappear, or come with long periods of underperformance",
+          "isCorrect": true,
+          "explanation": "A historical premium is not a guarantee. It may reflect risk, data history, changing market structure, or investor behavior, and it can underperform for long periods."
+        },
+        {
+          "id": "b",
+          "label": "Small companies are legally required to outperform",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Small-cap stocks have no business risk",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The premium is paid by the central bank",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A historical premium is not a guarantee. It may reflect risk, data history, changing market structure, or investor behavior, and it can underperform for long periods.",
+      "tags": [
+        "small-cap",
+        "risk-premium",
+        "expected-return"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-the-efficient-market-hypothesis-gen-084",
+      "type": "detail_meaning",
+      "category": "Markets and Supply and Demand",
+      "difficulty": "advanced",
+      "prompt": "What does the efficient market hypothesis generally suggest?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Market prices quickly incorporate available information, making consistent mispricing hard to exploit",
+          "isCorrect": true,
+          "explanation": "The efficient market hypothesis suggests that available information is reflected in prices quickly, so consistently beating the market is difficult."
+        },
+        {
+          "id": "b",
+          "label": "Markets are always perfectly calm",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "No investor can ever lose money",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "All assets always have the same expected return",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "The efficient market hypothesis suggests that available information is reflected in prices quickly, so consistently beating the market is difficult.",
+      "tags": [
+        "efficient-market-hypothesis",
+        "markets",
+        "pricing"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-a-liquidity-premium-085",
+      "type": "detail_meaning",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "advanced",
+      "prompt": "What is a liquidity premium?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Extra expected return investors may demand for holding assets that are harder to sell",
+          "isCorrect": true,
+          "explanation": "A liquidity premium compensates investors for holding assets that may be difficult, slow, or costly to sell."
+        },
+        {
+          "id": "b",
+          "label": "A fee paid for using a checking account",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "A guaranteed payment from every ETF",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "A tax deduction for long-term investors",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A liquidity premium compensates investors for holding assets that may be difficult, slow, or costly to sell.",
+      "tags": [
+        "liquidity-premium",
+        "risk",
+        "expected-return"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-loss-aversion-086",
+      "type": "detail_meaning",
+      "category": "Behavioral Finance and Common Mistakes",
+      "difficulty": "advanced",
+      "prompt": "What is loss aversion?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The tendency to feel losses more strongly than equivalent gains",
+          "isCorrect": true,
+          "explanation": "Loss aversion is the tendency for people to experience the pain of losses more strongly than the pleasure of similar-sized gains."
+        },
+        {
+          "id": "b",
+          "label": "The guarantee that losses are always larger than gains",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "A rule that makes bonds risk-free",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The belief that prices cannot fall twice",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Loss aversion is the tendency for people to experience the pain of losses more strongly than the pleasure of similar-sized gains.",
+      "tags": [
+        "loss-aversion",
+        "behavioral-finance",
+        "psychology"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-confirmation-bias-in-investing-087",
+      "type": "detail_meaning",
+      "category": "Behavioral Finance and Common Mistakes",
+      "difficulty": "advanced",
+      "prompt": "What is confirmation bias in investing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Looking for information that supports your existing view while ignoring contrary evidence",
+          "isCorrect": true,
+          "explanation": "Confirmation bias can make investors overvalue information that supports their opinion and undervalue evidence that challenges it."
+        },
+        {
+          "id": "b",
+          "label": "Selling every investment after one good year",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Choosing assets only by alphabetical order",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Calculating inflation incorrectly",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Confirmation bias can make investors overvalue information that supports their opinion and undervalue evidence that challenges it.",
+      "tags": [
+        "confirmation-bias",
+        "behavioral-finance",
+        "decision-making"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-recency-bias-088",
+      "type": "detail_meaning",
+      "category": "Behavioral Finance and Common Mistakes",
+      "difficulty": "advanced",
+      "prompt": "What is recency bias?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Giving too much weight to recent events when judging the future",
+          "isCorrect": true,
+          "explanation": "Recency bias occurs when recent performance or news feels more important than it should, leading investors to extrapolate too much from the near past."
+        },
+        {
+          "id": "b",
+          "label": "Ignoring the most recent price completely",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Believing old data is always more accurate",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Choosing investments only once per year",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Recency bias occurs when recent performance or news feels more important than it should, leading investors to extrapolate too much from the near past.",
+      "tags": [
+        "recency-bias",
+        "behavioral-finance",
+        "markets"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-anchoring-in-financial-decision-makin-089",
+      "type": "detail_meaning",
+      "category": "Behavioral Finance and Common Mistakes",
+      "difficulty": "advanced",
+      "prompt": "What is anchoring in financial decision-making?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Relying too heavily on an initial number or reference point",
+          "isCorrect": true,
+          "explanation": "Anchoring happens when an initial number, such as a past price, strongly influences judgment even when new information matters more."
+        },
+        {
+          "id": "b",
+          "label": "Changing your opinion after every new fact",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Investing only in shipping companies",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Using inflation data to calculate real return",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Anchoring happens when an initial number, such as a past price, strongly influences judgment even when new information matters more.",
+      "tags": [
+        "anchoring",
+        "behavioral-finance",
+        "bias"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-herd-behavior-in-markets-090",
+      "type": "detail_meaning",
+      "category": "Behavioral Finance and Common Mistakes",
+      "difficulty": "advanced",
+      "prompt": "What is herd behavior in markets?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Following the crowd mainly because others are buying or selling",
+          "isCorrect": true,
+          "explanation": "Herd behavior occurs when investors follow others' actions rather than making independent judgments based on risk, value, and goals."
+        },
+        {
+          "id": "b",
+          "label": "Diversifying across unrelated assets",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Calculating the expected return of a bond",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Rebalancing to a target allocation",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Herd behavior occurs when investors follow others' actions rather than making independent judgments based on risk, value, and goals.",
+      "tags": [
+        "herd-behavior",
+        "behavioral-finance",
+        "markets"
+      ]
+    },
+    {
+      "id": "economics-investing-what-ratio-compares-excess-return-to-volatili-091",
+      "type": "type_answer",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "advanced",
+      "prompt": "What ratio compares excess return to volatility and is often used as a risk-adjusted performance measure?",
+      "answer": "Sharpe ratio",
+      "acceptedAnswers": [
+        "sharpe",
+        "sharpe measure"
+      ],
+      "explanation": "The Sharpe ratio compares excess return with volatility, helping evaluate how much return was earned per unit of risk.",
+      "tags": [
+        "sharpe-ratio",
+        "risk-adjusted-return",
+        "volatility"
+      ]
+    },
+    {
+      "id": "economics-investing-why-is-standard-deviation-an-incomplete-measu-092",
+      "type": "detail_meaning",
+      "category": "Risk, Return, and Time Horizon",
+      "difficulty": "advanced",
+      "prompt": "Why is standard deviation an incomplete measure of investment risk?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It measures volatility but may not capture valuation risk, liquidity risk, behavior risk, or permanent loss",
+          "isCorrect": true,
+          "explanation": "Standard deviation captures how much returns fluctuate, but investors also face risks such as overvaluation, illiquidity, poor behavior, default, and permanent capital loss."
+        },
+        {
+          "id": "b",
+          "label": "It only works for banknotes",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It guarantees that returns are normally distributed",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It measures taxes instead of price movement",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Standard deviation captures how much returns fluctuate, but investors also face risks such as overvaluation, illiquidity, poor behavior, default, and permanent capital loss.",
+      "tags": [
+        "standard-deviation",
+        "risk",
+        "volatility"
+      ]
+    },
+    {
+      "id": "economics-investing-a-long-term-nominal-bond-pays-a-fixed-coupon-093",
+      "type": "pick_correct",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "advanced",
+      "prompt": "A long-term nominal bond pays a fixed coupon while unexpected inflation rises sharply. What risk becomes more important?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Purchasing-power risk because fixed payments buy less in real terms",
+          "isCorrect": true,
+          "explanation": "Unexpected inflation hurts fixed nominal payments because those payments buy fewer goods and services in real terms."
+        },
+        {
+          "id": "b",
+          "label": "Voting risk because bondholders control the company",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Dividend risk because coupons become dividends",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Liquidity disappears automatically",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Unexpected inflation hurts fixed nominal payments because those payments buy fewer goods and services in real terms.",
+      "tags": [
+        "nominal-bonds",
+        "inflation-risk",
+        "purchasing-power"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-reinvestment-risk-for-a-bond-investor-094",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "advanced",
+      "prompt": "What is reinvestment risk for a bond investor?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The risk that future coupon payments must be reinvested at lower rates",
+          "isCorrect": true,
+          "explanation": "Reinvestment risk is the possibility that cash flows from a bond, such as coupons, will be reinvested at lower rates than expected."
+        },
+        {
+          "id": "b",
+          "label": "The risk that the issuer pays too much interest",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The risk that shares cannot be voted",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The risk that an ETF has too many holdings",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Reinvestment risk is the possibility that cash flows from a bond, such as coupons, will be reinvested at lower rates than expected.",
+      "tags": [
+        "reinvestment-risk",
+        "bonds",
+        "interest-rates"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-a-callable-bond-095",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "advanced",
+      "prompt": "What is a callable bond?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A bond the issuer can repay early under specified conditions",
+          "isCorrect": true,
+          "explanation": "A callable bond gives the issuer the right to repay the bond early, often when rates fall, which can limit the investor's upside."
+        },
+        {
+          "id": "b",
+          "label": "A bond that can only be bought by phone",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "A bond that has no maturity date and no coupon",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "A bond that automatically becomes a stock index fund",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "A callable bond gives the issuer the right to repay the bond early, often when rates fall, which can limit the investor's upside.",
+      "tags": [
+        "callable-bond",
+        "fixed-income",
+        "reinvestment-risk"
+      ]
+    },
+    {
+      "id": "economics-investing-what-does-quantitative-tightening-generally-d-096",
+      "type": "what_does_it_do",
+      "category": "Central Banks and Monetary Policy",
+      "difficulty": "advanced",
+      "prompt": "What does quantitative tightening generally do?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It reduces or stops the central bank's balance-sheet support by letting assets run off or selling them",
+          "isCorrect": true,
+          "explanation": "Quantitative tightening reduces central bank balance-sheet support, often by allowing bonds to mature without full reinvestment or by selling assets."
+        },
+        {
+          "id": "b",
+          "label": "It guarantees cheaper mortgages immediately",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It means the government cuts taxes",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It forces companies to issue more dividends",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Quantitative tightening reduces central bank balance-sheet support, often by allowing bonds to mature without full reinvestment or by selling assets.",
+      "tags": [
+        "quantitative-tightening",
+        "central-bank",
+        "monetary-policy"
+      ]
+    },
+    {
+      "id": "economics-investing-why-is-the-link-between-money-supply-growth-a-097",
+      "type": "detail_meaning",
+      "category": "Central Banks and Monetary Policy",
+      "difficulty": "advanced",
+      "prompt": "Why is the link between money supply growth and inflation not always one-for-one in the short run?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Velocity, output, expectations, banking behavior, and demand for money can change",
+          "isCorrect": true,
+          "explanation": "Money supply matters, but the short-run inflation outcome also depends on how fast money circulates, real output, credit creation, expectations, and money demand."
+        },
+        {
+          "id": "b",
+          "label": "Money supply has no relationship with inflation under any condition",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "Inflation is set only by stock-market returns",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "Central banks do not affect money or credit conditions",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "Money supply matters, but the short-run inflation outcome also depends on how fast money circulates, real output, credit creation, expectations, and money demand.",
+      "tags": [
+        "money-supply",
+        "inflation",
+        "macro"
+      ]
+    },
+    {
+      "id": "economics-investing-why-can-a-yield-curve-inversion-be-interprete-098",
+      "type": "detail_meaning",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "advanced",
+      "prompt": "Why can a yield curve inversion be interpreted as a warning sign but not a certainty?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It can reflect expectations of slower growth or future rate cuts, but many other factors affect yields",
+          "isCorrect": true,
+          "explanation": "An inversion can signal market expectations of slower growth or future rate cuts, but term premia, central bank policy, inflation expectations, and global demand also influence yields."
+        },
+        {
+          "id": "b",
+          "label": "It means every recession has already started",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "It means stock returns must be negative for exactly one year",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "It is created only by corporate dividends",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "An inversion can signal market expectations of slower growth or future rate cuts, but term premia, central bank policy, inflation expectations, and global demand also influence yields.",
+      "tags": [
+        "yield-curve",
+        "recession-risk",
+        "macro"
+      ]
+    },
+    {
+      "id": "economics-investing-what-is-the-term-for-the-difference-between-a-099",
+      "type": "type_answer",
+      "category": "Bonds and Fixed Income",
+      "difficulty": "advanced",
+      "prompt": "What is the term for the difference between a risky bond yield and a comparable safer government bond yield?",
+      "answer": "credit spread",
+      "acceptedAnswers": [
+        "spread",
+        "bond spread",
+        "yield spread"
+      ],
+      "explanation": "A credit spread is the extra yield investors demand for taking credit risk compared with a safer benchmark bond.",
+      "tags": [
+        "credit-spread",
+        "bonds",
+        "credit-risk"
+      ]
+    },
+    {
+      "id": "economics-investing-two-funds-track-the-same-index-fund-a-has-a-l-100",
+      "type": "pick_correct",
+      "category": "Funds, ETFs, and Diversification",
+      "difficulty": "advanced",
+      "prompt": "Two funds track the same index. Fund A has a lower expense ratio and similar tracking quality. What is usually the better long-term feature?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The lower cost, because fees compound against the investor over time",
+          "isCorrect": true,
+          "explanation": "When funds track the same index with similar quality, lower ongoing costs are usually beneficial because fees reduce compounded returns."
+        },
+        {
+          "id": "b",
+          "label": "The higher cost, because fees guarantee better returns",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "label": "The fund with more complicated marketing language",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "label": "The fund with the highest share price",
+          "isCorrect": false
+        }
+      ],
+      "answer": "a",
+      "explanation": "When funds track the same index with similar quality, lower ongoing costs are usually beneficial because fees reduce compounded returns.",
+      "tags": [
+        "expense-ratio",
+        "index-funds",
+        "compounding"
+      ]
+    }
+  ]
+}

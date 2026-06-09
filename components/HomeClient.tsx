@@ -24,13 +24,12 @@ interface HomeClientProps {
 }
 
 export default function HomeClient({ quizzes, defaultQuiz }: HomeClientProps) {
+  const [selectedQuiz, setSelectedQuiz] = useState<QuizInfo | null>(defaultQuiz);
   const [showCustom, setShowCustom] = useState(false);
   const [mode, setMode] = useState<Mode>("smart");
   const [count, setCount] = useState<number | "All">(5);
 
-  const quiz = defaultQuiz || quizzes[0];
-
-  if (!quiz) {
+  if (quizzes.length === 0) {
     return (
       <QuizShell>
         <div className="flex flex-col items-center justify-center min-h-[60dvh] text-center">
@@ -42,12 +41,47 @@ export default function HomeClient({ quizzes, defaultQuiz }: HomeClientProps) {
     );
   }
 
+  if (!selectedQuiz) {
+    return (
+      <QuizShell>
+        <div className="flex flex-col min-h-[85dvh]">
+          <div className="flex-1 flex flex-col justify-center py-8">
+            <h1 className="text-3xl font-bold tracking-tight text-text-primary">
+              MyQuizLab
+            </h1>
+            <p className="mt-2 text-text-secondary">Choose a quiz to get started.</p>
+
+            <div className="mt-8 flex flex-col gap-3">
+              {quizzes.map((q) => (
+                <button
+                  key={q.id}
+                  onClick={() => setSelectedQuiz(q)}
+                  className="text-left p-5 bg-bg-secondary hover:bg-bg-elevated active:scale-[0.98] rounded-2xl border border-border transition-all duration-150 group"
+                >
+                  <div className="flex items-center justify-between">
+                    <span className="font-semibold text-text-primary group-hover:text-accent transition-colors">
+                      {q.title}
+                    </span>
+                    <svg className="w-4 h-4 text-text-muted group-hover:text-accent transition-colors shrink-0 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                  <p className="mt-1 text-sm text-text-secondary line-clamp-2">{q.description}</p>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </QuizShell>
+    );
+  }
+
   const quizUrl = (m: Mode, c: number | "All") => {
     const params = new URLSearchParams();
     if (m !== "smart") params.set("mode", m);
     if (c !== 5) params.set("count", String(c));
     const qs = params.toString();
-    return `/quiz/${quiz.id}${qs ? `?${qs}` : ""}`;
+    return `/quiz/${selectedQuiz.id}${qs ? `?${qs}` : ""}`;
   };
 
   return (
@@ -55,6 +89,18 @@ export default function HomeClient({ quizzes, defaultQuiz }: HomeClientProps) {
       <div className="flex flex-col min-h-[85dvh]">
         {/* Hero */}
         <div className="flex-1 flex flex-col justify-center py-8">
+          {quizzes.length > 1 && (
+            <button
+              onClick={() => { setSelectedQuiz(null); setShowCustom(false); }}
+              className="self-start mb-4 flex items-center gap-1 text-sm text-text-muted hover:text-text-secondary transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+              </svg>
+              All quizzes
+            </button>
+          )}
+
           <div className="mb-2">
             <span className="inline-block px-3 py-1 text-xs font-medium bg-accent-muted text-accent rounded-full">
               Quick session
@@ -62,11 +108,11 @@ export default function HomeClient({ quizzes, defaultQuiz }: HomeClientProps) {
           </div>
 
           <h1 className="text-3xl font-bold tracking-tight text-text-primary">
-            MyQuizLab
+            {selectedQuiz.title}
           </h1>
 
           <p className="mt-3 text-text-secondary leading-relaxed">
-            {quiz.description}
+            {selectedQuiz.description}
           </p>
 
           {/* Primary CTA */}
@@ -90,7 +136,7 @@ export default function HomeClient({ quizzes, defaultQuiz }: HomeClientProps) {
             </button>
 
             <Link
-              href={`/review/${quiz.id}`}
+              href={`/review/${selectedQuiz.id}`}
               className="text-sm text-text-muted hover:text-text-secondary transition-colors"
             >
               Review all →
