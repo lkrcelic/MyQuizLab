@@ -1,22 +1,19 @@
-import { getQuizById, getAllQuizzes } from "@/lib/quizzes";
+import { getQuizById } from "@/lib/quizzes";
 import { notFound } from "next/navigation";
 import QuizSession from "@/components/QuizSession";
+
+export const dynamic = "force-dynamic";
 
 interface QuizPageProps {
   params: Promise<{ quizSlug: string }>;
   searchParams: Promise<{ mode?: string; count?: string }>;
 }
 
-export function generateStaticParams() {
-  const quizzes = getAllQuizzes();
-  return quizzes.map((quiz) => ({ quizSlug: quiz.id }));
-}
-
 export default async function QuizPage({ params, searchParams }: QuizPageProps) {
   const { quizSlug } = await params;
   const { mode, count } = await searchParams;
 
-  const quiz = getQuizById(quizSlug);
+  const quiz = await getQuizById(quizSlug);
   if (!quiz) notFound();
 
   return (

@@ -1,7 +1,9 @@
 "use client";
 
-import type { Question } from "@/types/quiz";
+import { useState } from "react";
+import type { Question, Rating } from "@/types/quiz";
 import { buildChatGPTUrl } from "@/lib/chatgpt-prompt";
+import { setRating } from "@/lib/ratings-client";
 
 interface ExplanationModalProps {
   question: Question;
@@ -38,6 +40,34 @@ export default function ExplanationModal({
   const userLabel = resolveAnswerLabel(question, userAnswer);
   const explanation = getCorrectExplanation(question);
   const chatGPTUrl = buildChatGPTUrl(question);
+
+  const [rating, setLocalRating] = useState<Rating>(question.rating ?? null);
+  const [saving, setSaving] = useState(false);
+
+  const applyRating = async (next: Rating) => {
+    const previous = rating;
+    setLocalRating(next);
+    setSaving(true);
+    try {
+      await setRating(question.id, next);
+    } catch {
+      setLocalRating(previous);
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  const handleGreat = () => applyRating(rating === "great" ? null : "great");
+
+  const handleDelete = () => {
+    if (rating === "deleted") {
+      applyRating(null);
+      return;
+    }
+    if (window.confirm("Hide this question from future quizzes?")) {
+      applyRating("deleted");
+    }
+  };
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col bg-bg-primary animate-fade-in">
@@ -132,6 +162,36 @@ export default function ExplanationModal({
             </svg>
             Ask more on ChatGPT
           </a>
+
+          {/* Rate this question */}
+          <div className="mt-3 flex items-center gap-3">
+            <button
+              onClick={handleGreat}
+              disabled={saving}
+              aria-pressed={rating === "great"}
+              className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl border transition-all duration-150 disabled:opacity-50 ${
+                rating === "great"
+                  ? "bg-success-muted border-success text-success"
+                  : "bg-bg-secondary hover:bg-bg-tertiary border-border text-text-secondary hover:text-text-primary"
+              }`}
+            >
+              <span>👍</span>
+              Great question
+            </button>
+            <button
+              onClick={handleDelete}
+              disabled={saving}
+              aria-pressed={rating === "deleted"}
+              className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl border transition-all duration-150 disabled:opacity-50 ${
+                rating === "deleted"
+                  ? "bg-error-muted border-error text-error"
+                  : "bg-bg-secondary hover:bg-bg-tertiary border-border text-text-secondary hover:text-text-primary"
+              }`}
+            >
+              <span>🗑</span>
+              {rating === "deleted" ? "Hidden" : "Delete question"}
+            </button>
+          </div>
         </div>
       </div>
 

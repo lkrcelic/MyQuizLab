@@ -29,6 +29,7 @@ const questionSchema = z.object({
   example: z.string().optional(),
   explanation: z.string(),
   tags: z.array(z.string()).optional(),
+  rating: z.enum(["great", "deleted"]).nullish(),
 });
 
 export const quizSchema = z.object({

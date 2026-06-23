@@ -1,20 +1,17 @@
-import { getQuizById, getAllQuizzes } from "@/lib/quizzes";
+import { getQuizById } from "@/lib/quizzes";
 import { notFound } from "next/navigation";
 import ReviewClient from "@/components/ReviewClient";
+
+export const dynamic = "force-dynamic";
 
 interface ReviewPageProps {
   params: Promise<{ quizSlug: string }>;
 }
 
-export function generateStaticParams() {
-  const quizzes = getAllQuizzes();
-  return quizzes.map((quiz) => ({ quizSlug: quiz.id }));
-}
-
 export default async function ReviewPage({ params }: ReviewPageProps) {
   const { quizSlug } = await params;
 
-  const quiz = getQuizById(quizSlug);
+  const quiz = await getQuizById(quizSlug);
   if (!quiz) notFound();
 
   return <ReviewClient quiz={quiz} />;
