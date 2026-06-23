@@ -6,6 +6,8 @@ export type QuestionType =
 
 export type Difficulty = "beginner" | "intermediate" | "advanced";
 
+export type Rating = "great" | "deleted" | null;
+
 export type Option = {
   id: string;
   label: string;
@@ -25,6 +27,7 @@ export type Question = {
   example?: string;
   explanation: string;
   tags?: string[];
+  rating?: Rating;
 };
 
 export type Quiz = {
