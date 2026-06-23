@@ -60,7 +60,11 @@ export function selectSmartPracticeQuestions(
   progress: QuizProgress,
   count: number
 ): Question[] {
-  const questionsWithScores = questions.map((question) => {
+  // Shuffle first so that questions sharing the same priority score (e.g. all
+  // unseen questions score 100) are ordered randomly. The stable sorts below
+  // then keep this random order within each score tier, so we don't always
+  // pick the first N questions in file order.
+  const questionsWithScores = shuffleArray(questions).map((question) => {
     const stats = progress.questionStats[question.id];
     return {
       question,
