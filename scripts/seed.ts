@@ -1,14 +1,15 @@
 import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 import { config } from "dotenv";
+import { db } from "../lib/db/index";
+import { quizzes, questions } from "../lib/db/schema";
+import { parseQuiz } from "../lib/quiz-schema";
 
+// Load .env.local for local runs. On Vercel, DATABASE_URL is already in the env.
+// The DB client (lib/db) is lazy, so the imports above don't read env or connect —
+// the connection string is only needed when seed() runs its first query, which is
+// after this call. (Static imports avoid top-level await, unsupported under CJS.)
 config({ path: ".env.local" });
-
-// Imported after dotenv so the DB client sees the connection string.
-// Relative paths so the script does not depend on tsconfig path-alias resolution.
-const { db } = await import("../lib/db/index");
-const { quizzes, questions } = await import("../lib/db/schema");
-const { parseQuiz } = await import("../lib/quiz-schema");
 
 const QUIZZES_DIR = join(process.cwd(), "content", "quizzes");
 
